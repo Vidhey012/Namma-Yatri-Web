@@ -1,0 +1,2 @@
+Github URL  : https://github.com/Vidhey012/Namma-Yatri-Web.git
+Website URL : https://nammayatriweb.netlify.app/
