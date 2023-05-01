@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cab book template">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Taruunnn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/customStyle.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/6e6e5e1f4c.js"></script>
+    <link rel="icon" href="img/ARDU_fau.svg" type="image/x-icon">
+    <title>Namma Yatri Web </title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        
+        .col-md-2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-light  " style="background: #fffdd0">
+            <a class="navbar-brand" href="https://nammayatri.in/">
+
+                <img src="img/logo.png" style="height:25%; width:25%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#book-section">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="carousel-bg">
+            <div id="carouselExampleIndicators" class="carousel slide container" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="margin-top">
+                                    <h6 class="header-span">REACH YOUR <b>DESTINATION</b> </h6>
+                                    <h1 class="header-larg-text">LET'S<span class="header-cricle animated">go</span></h1>
+                                    <h3 class="header-heading">start at <b> 10rs</b> <sup>/km</sup></h3>
+
+                                    <span class="headedr-span-sec"> Namma Yatri is a Direct-to-Driver Web Application. There is no commission or middle-men. What you pay goes 100% to the Driver and his family!</span>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <button type="button" class="custom-btn btn btn-light"><a href="#book-section">BOOK NOW</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/onboarding.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h6 class="header-span">In Our<b> Package</b> </h6>
+                                <h1 class="header-larg-text">Enjo<span class="header-cricle animated">ye</span></h1>
+                                <h3 class="header-heading">Only <b> 200rs</b> <sup>/hr</sup></h3>
+
+                                <span class="headedr-span-sec"> Blazingly fast, super-easy Web Application to book rides. Door-step pickups by trusted drivers for your safe ride.</span>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <button type="button" class="custom-btn btn btn-light"><a href="#our-pricing">VIEW PACAKAGE</a></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/driver.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h6 class="header-span">Ready To comfirt <b>ride</b> </h6>
+                                <h1 class="header-larg-text">FREE<span class="header-cricle animated">0/-</span></h1>
+                                <h3 class="header-heading">First Ride <b> 1</b> <sup>/km</sup></h3>
+
+                                <span class="headedr-span-sec"> A customer friendly online application by drivers in collaboration with leading tech companies. Creating a symbiotic community.</span>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <button type="button" class="custom-btn btn btn-light"><a href="#book-section">BOOK YOUR RIDE</a></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/autoMap.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <!-- section book cab-->
+        <section class="bookcab " id="book-section">
+
+            <div class="container container-shadow">
+                <div class="row">
+                    <div class="col-md-4 padding70 bg-white">
+                        <div class="short-intro">
+                            <h4 class="bookcab-heading"><small style="margin-top: 20px;"> book an <br><br> auto </small>
+                                <br> <span>GO DRIVE</span>
+                            </h4>
+                            <p>Contrary to popular belief, Taxi Bookings is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a </p>
+                            <blockquote class="custom-blockquote"><i class="bb"> Contrary to popular belief, Taxi Bookings literature from 45 BC, making it </i> </blockquote>
+                            <ul class="list">
+                                <li>Super & reliable services</li>
+                                <li>24 X 7 customer support provide</li>
+                                <li> Large Range of Car Models</li>
+                                <li>GPS Tracking and help</li>
+                                <li> Powerful Security Offer</li>
+                            </ul>
+                            <div class="buttons">
+                                <button type="button" class="btn btn-warning btn-cus"><a href="#contact" style="color:white;">CONTACT US</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 padding70 bg-yellow">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <div class="btn-group" role="group">
+                                            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle btn-default bs-placeholder btn-default-custom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Passengerse
+									</button>
+                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                <a class="dropdown-item" href="#">1</a>
+                                                <a class="dropdown-item" href="#">2</a>
+                                                <a class="dropdown-item" href="#">3</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <input type="text" name="" class="form-input" placeholder="Pickup location">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <input type="text" name="" class="form-input " placeholder="Date and Time">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <input type="text" name="" class="form-input " placeholder="Drop of Location">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <div class="btn-group" role="group">
+                                            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle btn-default bs-placeholder btn-default-custom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Passengerse
+									</button>
+                                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                                <a class="dropdown-item" href="#">Diration</a>
+                                                <a class="dropdown-item" href="#">Only One Way</a>
+                                                <a class="dropdown-item" href="#">Return</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group bootstrap-select input-group-btn form-control dropup">
+                                        <input type="email" name="" class="form-input " placeholder="Email">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="section-second cabbook">
+                                <div class="col-sm-12 ">
+                                    <div class="col-sm-4 ">
+                                        <div class="pkg-item">
+                                            <h6 class="cab-book-heading"> REGULAR <br> <small>Auto</small></h6>
+                                            <input type="radio" name="package" class="form-check-input checkbox-emboss" value=" Regularcab " id="package">
+
+                                            <div class="pkg-price">
+                                                <h2>20/-</h2>
+                                                <h5> for 10KM</h5>
+                                                <small>1 Passanger</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 ">
+                                        <div class="pkg-item">
+                                            <h6 class="cab-book-heading"> REGULAR <br> <small>Auto</small></h6>
+                                            <input type="radio" name="package" class="form-check-input checkbox-emboss" value=" Regularcab " id="package">
+
+                                            <div class="pkg-price">
+                                                <h2>20/-</h2>
+                                                <h5> for 10KM</h5>
+                                                <small>1 Passenger</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <h6 class="cab-book-heading">REGULAR <br> <small>Auto</small></h6>
+                                        <input type="radio" name="package" class="form-check-input checkbox-emboss" value=" Regularcab " id="package">
+
+                                        <div class="pkg-price">
+                                            <h2>20/-</h2>
+                                            <h5> for 10KM</h5>
+                                            <small>1 Passenger</small>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 ">
+                                <div class="buttons">
+                                    <button type="button" class="btn btn-primary btn-cus">SUBMIT FORM</button>
+                                    <button type="button" class="btn btn-warning btn-cus">RESET </button>
+                                    <button type="button" class="btn btn-success btn-cus"><a href="#contact" style="color:white;">ROUTE INFO</a></button>
+                                </div>
+                            </div>
+
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our vehicle-->
+
+        <!-- our pricing-->
+        <section class="our-pricing padding180 " id="our-pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="short-intro" style="MARGIN-LEFT: 48PX;">
+                        <h4 class="bookcab-heading yellow"> OUR <small style="color: #fff"> pricing</small>
+                            <br> <span>GO DRIVE</span>
+                        </h4>
+                    </div>
+                    <div class="row text-center align-items-end">
+
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div class="bg-white p-5 rounded-lg shadow">
+                                <h1 class="h6 text-uppercase font-weight-bold mb-4 card-title">Basic</h1>
+                                <h2 class="h1 font-weight-bold">500<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+                                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                                <ul class="list-unstyled my-5 text-small text-left">
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Taxi Bookings dolor sit amet</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Sed ut perspiciatis</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> At vero eos et accusamus</li>
+                                    <li class="mb-3 text-muted">
+                                        <i class="fa fa-times mr-2"></i>
+                                        <del>Nam libero tempore</del>
+                                    </li>
+                                    <li class="mb-3 text-muted">
+                                        <i class="fa fa-times mr-2"></i>
+                                        <del>Sed ut perspiciatis</del>
+                                    </li>
+                                    <li class="mb-3 text-muted">
+                                        <i class="fa fa-times mr-2"></i>
+                                        <del>Sed ut perspiciatis</del>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-warning btn-cus"><a href="#contact" style="color:white;">CONTACT US</a></button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <div class="bg-white p-5 rounded-lg shadow">
+                                <h1 class="h6 text-uppercase font-weight-bold mb-4 card-title">Pro</h1>
+                                <h2 class="h1 font-weight-bold">399<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+                                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                                <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Taxi Bookings dolor sit amet</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Sed ut perspiciatis</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> At vero eos et accusamus</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Nam libero tempore</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Sed ut perspiciatis</li>
+                                    <li class="mb-3 text-muted">
+                                        <i class="fa fa-times mr-2"></i>
+                                        <del>Sed ut perspiciatis</del>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-warning btn-cus"><a href="#contact" style="color:white;">CONTACT US</a></button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="bg-white p-5 rounded-lg shadow">
+                                <h1 class="h6 text-uppercase font-weight-bold mb-4 card-title">Enterprise</h1>
+                                <h2 class="h1 font-weight-bold">899<span class="text-small font-weight-normal ml-2">/ month</span></h2>
+                                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                                <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Taxi Bookings dolor sit amet</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Sed ut perspiciatis</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> At vero eos et accusamus</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Nam libero tempore</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2  active"></i> Sed ut perspiciatis</li>
+                                    <li class="mb-3">
+                                        <i class="fa fa-check mr-2 active"></i> Sed ut perspiciatis</li>
+                                </ul>
+                                <button type="button" class="btn btn-warning btn-cus"><a href="#contact" style="color:white;">CONTACT US</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+        </div>
+
+        </div>
+        </div>
+        </section>
+        <!-- testmonials-->
+        <section class="bookcab" id="Feedback">
+            <div class="container container-shadow">
+                <div class="row">
+                    <div class="col-md-5 padding-custom bg-white">
+                        <div class="short-intro">
+                            <h4 class="bookcab-heading"> PASSENGER <small> FEED</small></h4>
+                            <br> <span>WHAT SAY OUR PASSENGER</span>
+                            <p style="    margin-top: 46px;">Contrary to popular belief, Taxi Bookings is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a </p>
+
+                            <div class="buttons">
+                                <button type="button" class="btn btn-warning btn-cus"><a href="#contact" style="color:white;">CONTACT US</a></button> <button type="button" class="btn btn-light btn-cus"><a href="https://nammayatri.in/" style="color:black;">ABOUT US</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7 padding-custom">
+                        <section class="text-center my-5">
+
+                            <div class="wrapper-carousel-fix">
+
+                                <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+
+                                    <div class="carousel-inner" role="listbox">
+
+                                        <div class="carousel-item active">
+                                            <div class="testimonial">
+
+                                                <div class="avatar mx-auto mb-4">
+                                                    <img src="img/customer-3.jpeg" width="180px" height="auto" class="rounded-circle ">
+                                                </div>
+
+                                                <p>
+                                                    <i class="fas fa-quote-left"></i>“I use Namma Yatri everyday for my office commute. I understood while talking to drivers that it is an online service made by the driver community. My entire trip amount
+                                                    goes to the drivers without any commission taken by anyone. I’m very happy with the service.”
+
+                                                </p>
+                                                <h4>Sudheer</h4>
+                                                <h6>PASSENGER </h6>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="testimonial">
+
+                                                <div class="avatar mx-auto mb-4">
+                                                    <img src="img/card-img/driver1.svg" width="80px" height="80px" class="rounded-circle ">
+                                                </div>
+
+                                                <p>
+                                                    <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                                </p>
+                                                <h4 class="">Maria Kate</h4>
+                                                <h6 class="font-weight-bold my-3">PASSENGER </h6>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+                                        <span class="icon-prev" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+                                        <span class="icon-next" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                </div>
+
+                        </section>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div style="background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+">
+            <h4 class="bookcab-heading"><br><small style="margin: 20px;padding-top: 20px;"><b>Our Sponsers are:</b></small></h4>
+            <div class="row items-center justify-between">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <a href="https://becknprotocol.io/"><img src="img/beckn_logo.svg"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://ondc.org/"><img src="img/ondcLogo.svg"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://juspay.in/"><img src="img/juspayLogo.svg"></a>
+                </div>
+                <div class="col-md-3"><img src="img/auto_logo.svg"></div>
+                <div class="col-md-2"><img src="img/ARDU_fau.svg" alt=""></div>
+            </div>
+        </div>
+    </main>
+    <!--footer section-->
+    <footer class="footer-padding180 footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="short-intro" style="margin: 65px 0px 0px 0px;">
+                        <h4 class="bookcab-heading yellow"> contact <small> </small>
+                        </h4>
+                        <address>
+				<strong>HEAD OFFICE</strong>
+				<p>11 Street No, Jagtpura <br> Near flyover, 012324-12</p>
+				<ul class="contact-info">
+					<li><i class="fa fa-headphones"></i> (99) 999 - 888 - 12 </li>
+					<li><i class="fa fa-print"></i> 123-456-7890 </li>
+					<li><i class="fa fa-envelope"></i> <a href="mailTo:support@demo.com">support@demo.com</a> </li>
+					<li><i class="fa fa-briefcase "></i> <a href="mailTo:career@demo.com">career@demo.com</a> </li>
+				</ul>
+			</address>
+
+                        <ul class="social-icon" style="">
+                            <li>
+                                <a href="" class="fab fa-facebook-square"></a>
+                            </li>
+                            <li>
+                                <a href="" class="fab fa-twitter-square"></a>
+                            </li>
+                            <li>
+                                <a href="" class="fab fa-youtube-square"></a>
+                            </li>
+                            <li>
+                                <a href="" class="fab fa-pinterest-square"></a>
+                            </li>
+                        </ul>
+
+                        <p class="copyright">© 2019 <i>HUNGERY CODERS</i> All Rights Reserved</p>
+
+                    </div>
+                    </h4>
+                </div>
+                <div class="col-md-5 msg-form footer-padding">
+                    <h3 class="toll-free">
+                        TOLL-FREE (11) 222 - 333 -44
+                    </h3>
+                    <small>IF YOU HAVE A QUESTION ? FILL THE FORM</small>
+                    <div class="col-md-12" style="margin-top: 41px">
+                        <form>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your msg"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-warning ">Send Msg</button>
+                    </div>
+                </div>
+                <div class="col-md-4 no-padding map-container">
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.56659890438!2d77.4661298427111!3d12.954280230928665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1682954174107!5m2!1sen!2sin"
+                            width="600" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
